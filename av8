@@ -1,0 +1,12 @@
+#8) Escreva um algoritmo que leia um valor inicial A e uma razão R e imprima uma seqüência em
+#P.A. contendo 10 valores.
+
+if __name__ == '__main__':
+
+    a = int(input("Digite o valor inicial da P.A.: "))
+    r = int(input("Digite a razão da P.A.: "))
+
+    print("A sequência em P.A. é:")
+    for i in range(10):
+        print(a)
+        a += 
