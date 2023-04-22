@@ -1,0 +1,7 @@
+#Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
+
+if __name__ == '__main__':
+    x = int(input('Quantos km você rodou?: '))
+    y = float(input('Quanto de combustível você gastou?: '))
+    total = x / y
+    print(f'{total:.3f} km/l')
