@@ -1,0 +1,14 @@
+#Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1
+#o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
+if __name__ == '__main__':
+    a = input().split()
+    c1 = int(a[0])
+    n1 = int(a[1])
+    v1 = float(a[2])
+
+    b = input().split()
+    c2 = int(b[0])
+    n2 = int(b[1])
+    v2 = float(b[2])
+    vt = n1*v1 + n2*v2
+    print('VALOR A PAGAR : R$ %.2f\n'%(vt))
