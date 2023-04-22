@@ -1,0 +1,21 @@
+#Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
+#a) a área do triângulo retângulo que tem A por base e C por altura.
+#b) a área do círculo de raio C. (pi = 3.14159)
+#c) a área do trapézio que tem A e B por bases e C por altura.
+#d) a área do quadrado que tem lado B.
+#e) a área do retângulo que tem lados A e B.
+
+if __name__ == '__main__':
+    a = float(input('Digite um valor pra A: '))
+    b = float(input('Digite um valor pra B: '))
+    c = float(input('Digite um valor pra C: '))
+    tr = a * c / 2
+    print('TRIANGULO =%.3f =\n'% (tr))
+    cr = 3.14159 * c**2
+    print('CIRCULO =%.3f\n'% (cr))
+    tra = (a + b) * c / 2
+    print('TRAPEZIO =%.3f'% (tra))
+    qd = b**2
+    print('QUADRADO =%.3f\n'% (qd))
+    re = a * b
+    print('RETANGULO =%.3f\n'% (re))
